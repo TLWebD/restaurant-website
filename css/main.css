@@ -22,6 +22,17 @@ header {
   width: 100%;
 }
 
+.paragraph {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(100%, 56%);
+}
+
+.banner-image {
+  position: relative;
+}
+
 nav {
   padding-top: 0.5em;
   font-size: 1.125rem;
