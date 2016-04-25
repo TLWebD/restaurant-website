@@ -1,0 +1,172 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  border: 2px solid #f9d752;
+  background-color: #7e7;
+  width: 100%;
+}
+
+nav {
+  padding-top: 0.5em;
+  font-size: 1.125rem;
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3rem;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #ccc;
+
+}
+
+.nav-label {
+  cursor: pointer;
+  font-size:1.25rem;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-close {
+  display: none;
+}
+
+ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: justify;
+}
+
+body {
+  background-color: #c8e5f5;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid #7e7;
+  padding: 0.5em 1em 0.5em;
+  margin: 0;
+  color: #333;
+  background-color: #f9d752;
+  display: inline-block;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+ color: #333;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: justify;
+}
+
+.body {
+  background-color: #e2e2e2;
+  padding: 1em;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.map {
+  width: 500px;
+  height: 400px;
+}
+
+@media only screen and (min-width: 25em) {
+
+  body {
+    font-size: 110%;
+    line-height: 1.5;
+    }
+
+    .insight {
+    position:absolute;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    font-size: 120%;
+    line-height: 1.4;
+    }
+
+  .insight {
+    position:absolute;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    font-size: 130%;
+    }
+
+  .insight {
+    position: relative;
+    top: 50%:
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    font-size: 130%;
+    }
+
+  .insight {
+    position:absolute;
+  }
+}
