@@ -106,6 +106,7 @@ a {
 }
 
 h1 {
+  font-family: 'Cantarell', sans-serif;
   color: #fff;
 }
 
@@ -167,7 +168,7 @@ ul {
 
   .insight {
     position: relative;
-    top: 50%:
+    top: 50%;
   }
 }
 
