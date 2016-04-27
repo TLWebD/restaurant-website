@@ -20,6 +20,7 @@ header {
   border: 2px solid #f9d752;
   background-color: #7e7;
   width: 100%;
+  height: 120px;
 }
 
 .paragraph {
@@ -27,18 +28,24 @@ header {
   bottom: 0;
   left: 0;
   transform: translate(100%, 56%);
+  top: 40px;
+}
+
+#bannerText {
+  width: 100%;
+  text-align: center;
 }
 
 .banner-image {
-  position: relative;
+  /*position: absolute;*/
 }
 
 nav {
   padding-top: 0.5em;
   font-size: 1.125rem;
   display: inline-block;
-  float: left;
-  width: 60%;
+  float: right;
+  /*width: 60%;*/
 }
 
 .nav a {
@@ -54,7 +61,7 @@ nav {
 }
 
 .nav-check {
-  position: absolute;
+  /*position: absolute;*/
   top: -3rem;
 }
 
@@ -84,11 +91,15 @@ nav {
 }
 
 ul {
-  float: left;
+  /*float: left;*/
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: justify;
+}
+
+.navList li {
+  float: left;
 }
 
 body {
@@ -134,6 +145,11 @@ ul {
 .map {
   width: 500px;
   height: 400px;
+}
+
+#logoHeader {
+    width: 50%;
+    float: left;
 }
 
 @media only screen and (min-width: 25em) {
