@@ -42,11 +42,14 @@ header {
 .cards-1, .cards-2, .cards-3 {
   display: inline-block;
   width: 25%;
-  margin-right: 5em;
+  margin-right: 5%;
+  right: 50%;
 }
 
-.body-1, .body-2, .body-3 {
-
+.img-cards {
+  width: 90%;
+  margin-left: 5%;
+  height: 40%;
 }
 
 nav {
@@ -143,9 +146,16 @@ ul {
   padding: 1em;
 }
 
+.banner {
+  width : 100%;
+  margin-right: 20%;
+  height: 10%;
+}
+
 .img-flex {
   width: 100%;
   display: block;
+  margin-left : 20%;
 }
 
 .map {
