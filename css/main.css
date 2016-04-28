@@ -16,6 +16,11 @@ html {
   box-sizing: inherit;
 }
 
+.logoheader {
+  width: 50%;
+  float: left;
+}
+
 header {
   border: 2px solid #f9d752;
   background-color: #7e7;
@@ -23,131 +28,8 @@ header {
   height: 120px;
 }
 
-.paragraph {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: translate(100%, 56%);
-  top: 40px;
-}
-
-.bannerText {
-  width: 100%;
-  text-align: center;
-}
-
-.banner-image {
-  position: relative;
-}
-.cards-1, .cards-2, .cards-3 {
-  display: inline-block;
-  width: 25%;
-  margin-right: 5%;
-  right: 50%;
-}
-
-.img-cards {
-  width: 90%;
-  margin-left: 5%;
-  height: 40%;
-}
-
-nav {
-  padding-top: 0.5em;
-  font-size: 1.125rem;
-  display: inline-block;
-  float: right;
-}
-
-.nav a {
-  display: block;
-  padding: 0.5em;
-  text-decoration: none;
-  color: #333;
-}
-
-.nav a:hover {
-  background-color: #333;
-  color: #fff;
-}
-
-.nav-check {
-  top: -3rem;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-label {
-  cursor: pointer;
-  font-size: 1.25rem;
-}
-
-.nav-check:checked ~ .nav-label {
-  background-color: #ccc;
-
-}
-
-.nav-label {
-  cursor: pointer;
-  font-size:1.25rem;
-  display: inline-block;
-  width: 40px;
-}
-
-.nav-close {
-  display: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: justify;
-}
-
-.navList li {
-  float: left;
-}
-
-body {
-  background-color: #c8e5f5;
-}
-
-a {
-  text-decoration: none;
-  border: 1px solid #7e7;
-  padding: 0.5em 1em 0.5em;
-  margin: 0;
-  color: #333;
-  background-color: #f9d752;
-  display: inline-block;
-}
-
-h1 {
-  font-family: 'Cantarell', sans-serif;
-  color: #fff;
-}
-
-h2 {
- color: #333;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: justify;
-}
-
-.body {
-  background-color: #e2e2e2;
-  padding: 1em;
-}
-
 .banner {
-  width : 100%;
+  width: 100%;
   margin-right: 20%;
   height: 10%;
 }
@@ -155,62 +37,56 @@ ul {
 .img-flex {
   width: 100%;
   display: block;
-  margin-left : 20%;
 }
 
-.map {
-  width: 500px;
-  height: 400px;
+.btn-subtle .button {
+  position: relative;
+  right: 18rem;
 }
 
-#logoHeader {
-    width: 50%;
-    float: left;
+.insight {
+position: relative;
+}
+
+.bannertext {
+  text-align: center;
+  float: inherit;
+}
+
+.banner-image {
+  position: relative;
+}
+
+.img-card {
+  width: 100%
+}
+
+}
+.card-1, .card-2, .card-3 {
+  display: inline-block;
+  width: 32%;
+}
+
+.thin-banner-pictures {
+  width: 100%;
+}
+
+.huge {
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
 
-  body {
-    font-size: 110%;
-    line-height: 1.5;
-    }
-
-    .insight {
-    position:absolute;
-  }
 }
 
 @media only screen and (min-width: 38em) {
 
-  body {
-    font-size: 120%;
-    line-height: 1.4;
-    }
-
-  .insight {
-    position:absolute;
-  }
 }
 
 @media only screen and (min-width: 60em) {
 
-  body {
-    font-size: 130%;
-    }
-
-  .insight {
-    position: relative;
-    top: 50%;
-  }
 }
 
 @media only screen and (min-width: 90em) {
 
-  body {
-    font-size: 130%;
-    }
-
-  .insight {
-    position:absolute;
-  }
 }
