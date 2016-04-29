@@ -13,10 +13,11 @@ html {
   background-color: #d6d6d6;
 }
 
-.nav a {
-  padding: 1em 0 12px;
-  background-color: #999;
-
+nav {
+  padding-top: 0.5em;
+  display: inline-block;
+  float: left;
+  width: 60%;
 }
 
 header {
@@ -35,26 +36,26 @@ header {
   float: left;
 }
 
-nav {
-  padding-top: 0.5em;
-  display: inline-block;
-  float: left;
-  width: 60%;
-}
-
 .nav {
   display: none;
   position: absolute;
   right: 0;
   top: 0;
-  height: 20px;
+  z-index: 1000;
+}
+
+.nav a {
+  margin: 0;
+  padding: 0;
+  background-color: #999;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
   list-style: none;
 }
-.nav a {
-  display: block;
-  padding: .5em .5em .5em .5em;
-  text-decoration: none;
-  color: #000;
+
+nav ul {
+  list-style: none;
 }
 
 .nav a:hover {
@@ -121,7 +122,7 @@ h2 {
 
 h3 {
   font-family: "Cantarell", sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -205,7 +206,7 @@ h3 {
 
 footer {
   background-color: #aaa;
-  height: 30em;
+  height: 5em;
   width: 100%;
 }
 
@@ -225,6 +226,13 @@ footer {
     right: 60px;
     display: inline-block;
   }
+
+  .nav a {
+    display: static;
+    position: inherit;
+    padding-right: auto;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -248,6 +256,11 @@ footer {
 
   .three-cards {
     width: 100%;
+  }
+
+  .nav a {
+    width: 25em;
+    top: 0;
   }
 }
 
@@ -273,6 +286,11 @@ footer {
   .nav-label {
     display: none;
   }
+
+  .nav a {
+    width: 25rem;
+    top: 0%;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -291,5 +309,9 @@ footer {
 
   p {
     font-size: 2rem;
+  }
+
+  .nav a {
+    display: inline;
   }
 }
