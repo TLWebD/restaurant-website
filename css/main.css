@@ -35,7 +35,6 @@ nav {
   display: inline-block;
   float: left;
   width: 60%;
-
 }
 
 .nav {
@@ -43,11 +42,15 @@ nav {
   position: absolute;
   right: 0;
   top: 0;
+  list-style: none;
+  height: 20px;
   z-index: 1000;
   float: right;
+  background-color: #898989;
+  border-radius: 1px;
 }
 
-.navlist a:hover {
+.nav a:hover {
   background-color: #333;
   color: #fff;
 }
@@ -57,7 +60,7 @@ nav {
   top: -3em;
 }
 
-.nav-check:checked ~ .navlist {
+.nav-check:checked ~ .nav {
   display: block;
 }
 
@@ -269,4 +272,9 @@ h4 {
     padding: 1em 0 40px;
     position: relative;
   }
+}
+
+.img-flex {
+  position: relative;
+  left: 5%;
 }
