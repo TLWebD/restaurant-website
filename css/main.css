@@ -42,12 +42,13 @@ nav {
   position: absolute;
   right: 0;
   top: 0;
-  list-style: none;
   height: 20px;
+  list-style: none;
   z-index: 1000;
   float: right;
   background-color: #898989;
   border-radius: 1px;
+  padding: .5em .75em;
 }
 
 .nav a:hover {
@@ -98,7 +99,6 @@ nav {
 
 p {
   font-family: "Cantarell", sans-serif;
-  font-size: 2em;
   position: relative;
   left: 3px;
 }
@@ -144,8 +144,10 @@ h4 {
 }
 
 .img-flex {
+  display: inline-block;
   width: 100%;
-  display: block;
+  height: 18em;
+  width: 100%;
 }
 
 .btn-subtle .button {
@@ -184,8 +186,7 @@ h4 {
 }
 
 .three-cards {
-  width: 120%;
-  margin: 3%;
+  width: 100%;
 }
 
 .thin-banner-pictures {
@@ -248,6 +249,10 @@ h4 {
   .huge {
     width: 100%;
   }
+
+  .img-flex {
+    right: 24px;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -272,9 +277,4 @@ h4 {
     padding: 1em 0 40px;
     position: relative;
   }
-}
-
-.img-flex {
-  position: relative;
-  left: 5%;
 }
