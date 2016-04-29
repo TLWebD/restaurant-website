@@ -36,7 +36,7 @@ nav {
   float: left;
   width: 60%;
 }
-
+.
 .nav {
   display: none;
   position: absolute;
@@ -256,6 +256,15 @@ h4 {
   .img-flex {
     right: 24px;
   }
+
+  .nav {
+    display: block;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
