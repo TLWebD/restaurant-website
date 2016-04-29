@@ -51,7 +51,7 @@ header {
   display: inline-block;
   text-decoration: none;
   width: 100%;
-  list-style: none;
+  list-style-type: none;
 }
 
 nav ul {
@@ -288,8 +288,13 @@ footer {
   }
 
   .nav a {
-    width: 25rem;
+    position: static;
+    width: 6rem;
     top: 0%;
+  }
+
+  .nav li {
+    display: inline;
   }
 }
 
@@ -311,7 +316,7 @@ footer {
     font-size: 2rem;
   }
 
-  .nav a {
+  .nav li {
     display: inline;
   }
 }
